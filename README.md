@@ -7,9 +7,17 @@
 
 Программа написана на **Ruby v 2.4.4**.
 
-Запуск программы
+## Установка
+Склонируйте приложение на ваш компьютер
 ``` ruby
-  ruby main.rb
+ git clone https://github.com/igorp123/wheather_forecast.git
 ```
-
+Установите все гемы,необходимые для работы приложения.
+``` ruby
+ bundle install
+```
+## Запуск
+``` ruby
+  bundle exec ruby main.rb
+```
 Информация о погоде предоставлена [Meteoservice.ru](https://www.meteoservice.ru)
